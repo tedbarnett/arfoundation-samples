@@ -31,7 +31,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5859083466849972311}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
@@ -77,7 +77,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Model Name Here
+  m_Text: Place in window below
 --- !u!114 &5859083466029460689
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -475,7 +475,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5859083466849972311}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
@@ -781,8 +781,8 @@ RectTransform:
   m_Children:
   - {fileID: 381196019323249659}
   - {fileID: 6423770974559259268}
-  - {fileID: 7500416896194645436}
   - {fileID: 5093021045000185735}
+  - {fileID: 7500416896194645436}
   - {fileID: 4587348962521390783}
   m_Father: {fileID: 6570594508545265459}
   m_RootOrder: 1
@@ -2144,7 +2144,6 @@ GameObject:
   - component: {fileID: 391744821953835823}
   - component: {fileID: 7645403886804449897}
   - component: {fileID: 1064182585153767376}
-  - component: {fileID: 53933970682229677}
   m_Layer: 5
   m_Name: Debug Text
   m_TagString: Untagged
@@ -2211,19 +2210,6 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 
---- !u!114 &53933970682229677
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7273493810549838184}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b04c6d609e0841af8557abd5b1aab14, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  debugText: {fileID: 1064182585153767376}
 --- !u!1 &8175864466293765055
 GameObject:
   m_ObjectHideFlags: 0
