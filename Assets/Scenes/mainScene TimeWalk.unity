@@ -288,6 +288,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: -20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &421589288 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6570594508424440845, guid: 2ac6705d2821f4c6f9458b7220d4210d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1479615860}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &427002219 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3811591508773167256, guid: 90290c13d4a3d46eea32be3d6a1a14c4,
@@ -769,7 +781,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &948874505
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1261,7 +1273,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PlacedPrefab: {fileID: 1934569588295450, guid: b34b6c8f1206a6844b983e23b9da0441,
     type: 3}
-  slider: {fileID: 1349448823}
+  slider: {fileID: 421589288}
 --- !u!114 &1335839539
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1492,6 +1504,21 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6570594508732194423, guid: 2ac6705d2821f4c6f9458b7220d4210d,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 55
+      objectReference: {fileID: 0}
+    - target: {fileID: 6570594509711488035, guid: 2ac6705d2821f4c6f9458b7220d4210d,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 44
+      objectReference: {fileID: 0}
+    - target: {fileID: 6570594509819016527, guid: 2ac6705d2821f4c6f9458b7220d4210d,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 181
+      objectReference: {fileID: 0}
     - target: {fileID: 6570594508424440844, guid: 2ac6705d2821f4c6f9458b7220d4210d,
         type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -1501,6 +1528,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.x
       value: -591
+      objectReference: {fileID: 0}
+    - target: {fileID: 6570594508424440844, guid: 2ac6705d2821f4c6f9458b7220d4210d,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 168
       objectReference: {fileID: 0}
     - target: {fileID: 6570594508424440845, guid: 2ac6705d2821f4c6f9458b7220d4210d,
         type: 3}
